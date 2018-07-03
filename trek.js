@@ -56,13 +56,21 @@ app.get("/treks/t3",function(req, res) {
 app.get("/treks/t4",function(req, res) {
    res.render("t4.ejs"); 
 })
+app.get("/treks/t4A",function(req, res) {
+   res.render("t4A.ejs"); 
+})
 app.get("/treks/t5",function(req, res) {
    res.render("t5.ejs"); 
+})
+app.get("/treks/t5A",function(req, res) {
+   res.render("t5A.ejs"); 
 })
 app.get("/treks/t6",function(req, res) {
    res.render("t6.ejs"); 
 })
-
+app.get("/treks/t6A",function(req, res) {
+   res.render("t6A.ejs"); 
+})
 app.get("/trek/leisure",function(req, res) {
    res.render("leisure.ejs"); 
 });
