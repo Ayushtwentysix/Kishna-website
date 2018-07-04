@@ -17,15 +17,19 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.4/semantic.min.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway:400i" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
   <style>
 
   #section1 {padding-top:50px;height:300px;color: #fff; box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.3); background-size: cover; background-image: url(https://res.cloudinary.com/dzdj5vlz4/image/upload/c_scale,g_center,h_5450,q_25,w_2351,x_398,y_514/v1530342726/LG7dao_VAGqAHOkh6ph5YAv5EGiwP5MNPdQo84Vu31FPKXa-nR_MgfdqGML7L155qh69KkDOPxO3V_d9oyXm3aB-uLs52L7_NhPPXg_w3144-h5590-rw-no.jpg); }
-  #section2 {padding-top:10px;height:600px;color: #fff; background-size: cover; background:white;}
+  #section2 {padding-top:10px;height:740px;color: #fff; background: white;  /* fallback for old browsers */
+
+}
   #section3 {padding-top:50px;height:300px; color: #fff; background-size: cover; box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.3);background-image: url(https://res.cloudinary.com/dzdj5vlz4/image/upload/v1530350854/che-YWv_5TKXLnX1gdMgmtOjtpRhlUpzKBtKPypE_hFFSmHMVXxJEDL9lOZNv6GWdcgUz98FOGJQbg_w1080-h720-rw-no.jpg);}
   #section4 {padding-top:50px;height:300px;color: #fff;  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3); background-size: cover;background-image: url(https://res.cloudinary.com/dzdj5vlz4/image/upload/v1530349172/erQYtgVqXLhq2FAjVCFN1jP0fBGqLDXj7xr5zz-MXEVHjPDj6Z1zqYzStCOau0D_C7GEXv6V61bVE16H1fR3s5j62yee6q8l3lU3_w3268-h1814-rw-no.jpg);}
   #section51 {padding-top:10px;height:500px;color: #fff;  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6); background-size: cover;background-image: url(https://res.cloudinary.com/dzdj5vlz4/image/upload/v1530353860/OOm63Q4unhS86kGebSPvl4ATeLzZ62lEXjjqKYDuVZjZD0x-76bmuG3WzF8LRywUBtW0RqIc878Ydg_w1280-h715-rw-no.jpg);}
-  #section52 {padding-top:50px;height:400px;color: #fff;  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.8); background-size: cover;background-image: url(https://res.cloudinary.com/dzdj5vlz4/image/upload/v1529921293/1200px-TAXI.jpg);}
+  #section52 {padding-top:50px;height:310px;color: #fff;  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.8); background-size: cover;background-image: url(https://res.cloudinary.com/dzdj5vlz4/image/upload/v1529921293/1200px-TAXI.jpg);}
   #section53 {padding-top:50px;height:400px;color: #fff;  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6); background-size: cover;background-image: url(https://unsplash.it/2000/1200/?image=1011);}
 
 h1{
@@ -40,6 +44,10 @@ h1{
     font-size:1.7em;
    }
    
+    #more2:hover {
+     
+    font-size:1.2em;
+   }
 
 .navbar.navbar-default {
     background-color: white;
@@ -59,7 +67,8 @@ h1{
     color:orange;
     font-size:1.3em;
 }
-#headline{
+
+.headline{
   text-align: center;
 
   font-size:4em;
@@ -73,7 +82,7 @@ color: limegreen;  /* fallback for old browsers */
   <div class=" container" >
     
     
-   <div id="headline">
+   <div class="headline"  id="contact">
      Kishna Camps
    </div>
      <h2 class="ui horizontal divider" style="margin-top:40px; margin-bottom:1px;">
@@ -106,7 +115,7 @@ CONTACT US
           <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" style="font-size:1.5em;">More<span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><a href="/trek/guest">Guest House</a></li>
-              <li><a href="#section53">Hire Bike & Taxi</a></li>
+              <li><a href="/trek/home#contact">Hire Bike & Taxi</a></li>
             </ul>
           </li>
         </ul>
@@ -124,7 +133,7 @@ CONTACT US
 <div id="section3" style="margin-top:0px;" >
 <h1 style="margin-top:80px; color:tomato; font-family: 'Playfair Display', serif;">Leave this</h1>
 </div>
-<h1 style="margin-top:0px; margin-bottom:0px;" id="headline">TO</h1>
+<h1 style="margin-top:0px; margin-bottom:0px;" class="headline">TO</h1>
 <div id="section4" >
   <h1 style="margin-top:80px; color:tomato; font-family: 'Playfair Display', serif;">Live this</h1>
 </div>
@@ -134,59 +143,73 @@ CONTACT US
   
 <div id="section2" >
   <div class="container-fluid">
+      <!--<center style="margin-bottom:10px; font-family: 'Raleway', sans-serif; font-size:1.5em;">Click on cards below to explore  </center>-->
  <div class="ui one doubling fluid cards" style=" margin-left:1px;">
  
   <div  id="rc1" style="background:url(https://res.cloudinary.com/dzdj5vlz4/image/upload/v1529921011/Gi5iRx52rOWOm7JxQDnr2oyWWoaOGducTMbjE6i7x3YSeUFqFdgLNBums6KuogzuPDWo4nnn1zDyLyEtmid8zU4cKYKynUwFAPSL_w1280-h720-rw-no.jpg); box-shadow:inset 0 0 0 1000px rgba(0,0,0,.65);" class=" raised card">
     <div id="one" class="content" >
       <div  id="header_one" class="header" style="font-size:2.5em;  color:white;"><a style="color:white; font-family: 'Josefin Sans', sans-serif;" href="trek/treks">Camps & Treks</a></div>
-      <a href="/trek/treks">
+     
       <div class="description" style="font-size:1.1em;  color:darkorange;">
         <p>Praise the Beauty of Nature</p><p>with Bonfire & Camping </p> 
-      </div></a>
+      </div>
+     <div id="more">
+      <button style="margin-top:5px;" class="ui large orange inverted button"><span id="more2"><a href="/trek/treks" style="color:mintcream; font-size:1.4em;">Know More</a></span></button>
+    </div> 
     </div>
-  </div>  
-  </div>
-   <div class="ui one doubling fluid cards" style=" margin-left:1px;">
+  </div> 
+ 
+  </div> 
+  <!--<h2 class="ui horizontal divider">-->
+ <!--<a href="trek/treks" style="font-family: 'Archivo Black', sans-serif; color:teal;">EXPLORE</a>-->
+ <!-- </h2>-->
+   <div class="ui one doubling fluid cards" style=" margin-left:1px; margin-top:30px;" >
    <div id="rc2"  style="background:url(https://res.cloudinary.com/dzdj5vlz4/image/upload/v1529939059/Kishna%20Camps/CampsAndTreks/IJ8frU-DDYPWsuqh3KVhvKJ-rbkgKgEkwmvzBh3stZhuuDkqcA_fsLimEX0UNjBKSfk-PHarYTIJb47KzfpmStDYcHc0-h05JWdT_w1040-h585-rw-no.jpg); box-shadow:inset 0 0 0 1000px rgba(0,0,0,.65);"  class="raised card">
     <div class="content">
       <div class="header" style="font-size:2.4em; color:white;"><a style="color:white; font-family: 'Josefin Sans', sans-serif;" href="trek/leisure">Leisure</a></div>
   
-      <div class="description" style="font-size:1.1em; ">
-         <a style="color:lightcoral;" href="trek/leisure"> <p>Be there,</p> 
+      <div class="description" style="font-size:1.2em; color:lightcoral;">
+         <p>Be there,</p> 
        <p>Lie there,</p> 
-        <p>Do nothing !!!</p>  
-      </div></a>
+        <p>Do nothing.</p>  
+      </div>
+       <div id="more">
+      <button  style="margin-top:5px;" class="ui large red inverted button"><span id="more2"><a href="/trek/leisure" style="color:mintcream; font-size:1.4em;">Know More</a></span></button>
+    </div>
     </div>
   </div>
   </div>
-   <div class="ui one doubling fluid cards" style=" margin-left:1px;">
+   <div class="ui one doubling fluid cards" style=" margin-left:1px; margin-top:30px;">
   <div id="rc3" style="background:url(http://res.cloudinary.com/del7capiy/image/upload/v1467314796/activity/Paragliding_in_Kunjapuri_ovrvqb.jpg); box-shadow:inset 0 0 0 1000px rgba(0,0,0,.65);" class="raised card">
     <div class="content">
       <div class="header" style="font-size:3em;color:white;"><a style="color:white;font-family: 'Josefin Sans', sans-serif;" href="trek/paragliding">Para gliding</a></div>
      
-      <div class="description" style="font-size:1.1em;">
-        <a style="color:limegreen;" href="trek/paragliding"><p>Glide through the Air</p> <p>like Eagle !!!</p> </a>
+      <div class="description" style="font-size:1.2em; color:limegreen;">
+       <p>Glide through the Air</p> <p>like Eagle</p>
       </div>
+            <button style="margin-top:5px;" class="ui large green inverted button"><span id="more2"><a href="/trek/paragliding" style="color:mintcream; font-size:1.4em;">Know More</a></span></button>
+
     </div>
   </div>
   </div>
-   <div class="ui one doubling fluid cards" style=" margin-left:1px;">
+   <div class="ui one doubling fluid cards" style=" margin-left:1px; margin-top:30px;">
   <div id="rc4" style="background:url(https://res.cloudinary.com/dzdj5vlz4/image/upload/v1529921041/-rPRh9avw9FwKXItwTe8GTT9BD_mRq-WxKrkL6FrujrhdgAkPC10HkKA2GF3ytDPt1guQLfYAxB_CqvMFegXWgmVumZ1E5JYAbnr_w720-h540-rw-no.jpg); box-shadow:inset 0 0 0 1000px rgba(0,0,0,.65);" class="raised card">
     <div  class="content">
       <div class="header" style="font-size:2.4em; color:white;"><a style="color:white;font-family: 'Josefin Sans', sans-serif;" href="trek/rafting">River Rafting</a></div>
       
-      <div class="description" style="font-size:1.1em; ">
-       <a style="color:deepskyblue;" href="trek/rafting" ><p>Want some More</p><p> Adventure & Fun?</p> </a>
+      <div class="description" style="font-size:1.2em; color:deepskyblue;">
+       <p>Want some More</p><p> Adventure & Fun?</p> </a>
       </div>
+            <button style="margin-top:5px;" class="ui large blue inverted button"><span id="more2"><a href="/trek/rafting" style="color:mintcream; font-size:1.4em;">Know More</a></span></button>
     </div>
   </div>
   </div>
 </div>
 </div>
- <h2 class="ui horizontal divider" style="margin-top:30px;">
+ <h2 class="ui horizontal divider" style="margin-top:180px;">
  <p>HOME COMFORT</p> <p>AT AFFORDABLE PRICE</p>
   </h2>
-<div id="section51" style="margin-top:30px;">
+<div id="section51" style="margin-top:25px;">
   <h1 style="margin-top:1px;">Guest House</h1>
   <div class="ui one column grid">
      <div class="column" >
@@ -213,8 +236,9 @@ CONTACT US
   
 <div id="section52" style="margin-bottom:50px;" >
   <h1 style="margin-top:30px;">Bike & Taxi </h1>
+  <center><h3>Get bike/taxi from Prashar Lake to anywhere in Mandi Valley.</h3></center>
   <center>
-  <button class="ui teal huge  circular basic button" style="text-align:center;">HIRE NOW</button></center>
+  <button class="ui orange huge toggle circular basic button" style="text-align:center; margin-top:30px;"><a  style="color:orange;" id="more" href="#contact">CONTACT NOW</a></button></center>
 </div>
  <h2 class="ui horizontal divider" style="margin-top:30px;">
 REAL TESTIMONIAL
@@ -232,6 +256,13 @@ TRAVELED FROM NEW DELHI TO PRASHAR LAKE
 </div>
   </div>
 <script>
+
+// $('#rc1')
+//   .dimmer({
+//     on: 'hover'
+//   })
+// ;
+
 $("#rc1").find("span").click(function(){
   $("#rc1").transition({
       
