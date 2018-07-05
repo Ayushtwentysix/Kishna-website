@@ -121,15 +121,15 @@ CONTACT US TO BOOK
 </div>
 
 
-<div class="left floated" style="margin-top:2px; margin-left:auto;">
-<% include partials/rafting.ejs %>
-</div>
-<div class="right floated" style="margin-top:2px; margin-bottom:2px;">
-<% include partials/paragliding.ejs %>
-</div>
-<div class="right floated" style="margin-top:2px; margin-bottom:2px; margin-right:auto">
-<% include partials/camps.ejs %>
-</div>
+<div class="ui three stackable cards">
+          <% include partials/camps.ejs %>
+  <% include partials/paragliding.ejs %>
+      <% include partials/rafting.ejs %>
+
+
+  </div>
+
+
  </div>
  <!-- Go to www.addthis.com/dashboard to customize your tools -->
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b3dcc8df30a3a9b"></script>
