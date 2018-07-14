@@ -1,0 +1,25 @@
+<% include partials/header.ejs %>
+
+<div class="ui main container segment">
+<div class="ui huge header">New Trek</div>
+<form action="/trek" method="POST" class="ui form">
+    <div class="field">
+        <lable>Title:</lable>
+            <input type="text" placeholder="Trek title" name="blog[blogHead]">
+    </div class="field">
+    <div>
+      <lable>Image:</lable>
+         <input type="text" placeholder="image URL" name="blog[img]">   
+    </div>
+    <div class="field">
+      <lable>Content:</lable>
+            <textarea name="blog[blogDes]"></textarea>
+    </div>
+   
+    
+    <button class="ui violet big basic button">Submit</button> <a href="/trek" class="ui pink large basic button">GO Back</a>
+</form>
+
+</div>
+
+<% include partials/footer.ejs %>
